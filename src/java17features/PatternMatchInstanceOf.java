@@ -15,7 +15,7 @@ public class PatternMatchInstanceOf {
 
         // Pattern matching for instanceof
         if (obj instanceof String str) {
-            System.out.println(str);
+            System.out.println(str.toUpperCase());
         }
 
         // Pattern matching for instanceof with else block
